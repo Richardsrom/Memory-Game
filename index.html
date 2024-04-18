@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.7/dist/sweetalert2.min.css">
+    <title>Memory Game</title>
+</head>
+<body>
+    <header class="container">
+        <div class="info">
+            <h1 class="info-title">Memory Game</h1>
+            <p class="info-instructions">The cards are shuffle. The first player flip over 2 cards. If the pictures match, the player keeps the cards and tries again for another match. If they do not match the cards are flip over again and the second player takes a turn</p>
+        </div>
+
+    </header>
+   
+    <main class="main container">
+        <section class="players">
+            <div class="players-info" >
+                <h2 id="p1">Player 1: <span class="player1"></span></h2>
+                <h3>Score: <span id="resultP1"></span></h3>
+            </div>
+        
+            <div class="players-info">
+                <h2 id="p2">Player 2: <span class="player2"></span></h2>
+                <h3>Score: <span id="resultP2"></span></h3>
+            </div>
+        </section>
+
+        <div id="grid"></div>
+
+
+    </main>
+
+    <footer class="footer container">
+        <h4>Desarrollado por Charly 👻</h4>
+    </footer>
+
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
