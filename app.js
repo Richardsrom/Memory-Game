@@ -598,7 +598,7 @@ const flipCard = (e) => {
         e.target.classList.add('flipped'); // Agregar una clase para marcar la carta como seleccionada
 
         if (cardsChosen.length === 2) {
-            setTimeout(checkMatch, 300);
+            setTimeout(checkMatch, 400);
         }
     }
 };
